@@ -5,19 +5,14 @@
     --color-bg-section: #1abc9c;
 }
 
+/* text  */
 body {
     color: var(--color-dark);
 }
-
 .link-color {
     color: var(--color-bg-section);
 }
 
-.fa-star {
-    font-size: 1.5em;
-}
-
-/* main  */
 /* background colors  */
 .my-bg-odd-section {
     background-color: var(--color-bg-section);
