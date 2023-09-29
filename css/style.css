@@ -9,9 +9,14 @@ body {
     color: var(--color-dark);
 }
 
+.link-color {
+    color: var(--color-bg-section);
+}
+
 .fa-star {
     font-size: 1.5em;
 }
+
 /* main  */
 /* background colors  */
 .my-bg-odd-section {
@@ -24,6 +29,7 @@ body {
     background-color: var(--color-dark);
 }
 
+
 /* hero  */
 #hero figure {
     width: 250px;
@@ -31,4 +37,10 @@ body {
 .row-star {
     width: 8vw;
     height: 3px;
+}
+
+/* footer  */
+footer .icon-bg {
+    width: 2em;
+    height: 2em;
 }
