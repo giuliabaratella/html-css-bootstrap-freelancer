@@ -34,8 +34,22 @@ body {
     height: 3px;
 }
 
+/* portfolio  */
+#portfolio figure img{
+    transition: all 0.3s;
+}
+#portfolio figure:hover img{
+    filter: brightness(40%);
+    transform: scale(0.99);
+    cursor: pointer;
+}
+
 /* footer  */
-footer .icon-bg {
+footer a .icon-bg {
     width: 2em;
     height: 2em;
+    transition: all 0.3s;
+}
+footer a:hover .icon-bg {
+    transform: scale(0.9);
 }
