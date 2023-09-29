@@ -6,6 +6,7 @@
 }
 
 /* main  */
+/* background colors  */
 .my-bg-odd-section {
     background-color: var(--color-bg-section);
 }
@@ -14,4 +15,14 @@
 }
 .my-bg-dark{
     background-color: var(--color-dark);
+}
+
+/* hero  */
+#hero figure {
+    width: 250px;
+}
+.white-row-star {
+    width: 8vw;
+    height: 3px;
+    border-radius: 3px;
 }
