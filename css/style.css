@@ -5,6 +5,13 @@
     --color-bg-section: #1abc9c;
 }
 
+body {
+    color: var(--color-dark);
+}
+
+.fa-star {
+    font-size: 1.5em;
+}
 /* main  */
 /* background colors  */
 .my-bg-odd-section {
@@ -21,8 +28,7 @@
 #hero figure {
     width: 250px;
 }
-.white-row-star {
+.row-star {
     width: 8vw;
     height: 3px;
-    border-radius: 3px;
 }
