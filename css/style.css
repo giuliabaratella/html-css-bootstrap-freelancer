@@ -5,12 +5,10 @@
     --color-bg-section: #1abc9c;
 }
 
+
 /* text  */
 body {
     color: var(--color-dark);
-}
-.link-color {
-    color: var(--color-bg-section);
 }
 
 /* background colors  */
@@ -25,11 +23,16 @@ body {
 }
 
 /* navbar  */
+nav .my-navbar-brand{
+    font-weight: 700;
+}
 nav .my-navbar-brand:hover {
     color: var(--color-bg-section) !important;
 }
 nav .my-nav-item {
     text-align: end;
+    font-size: 0.8em;
+    font-weight: 700;
 }
 nav .my-nav-item a {
     color: white !important;
@@ -129,4 +132,31 @@ footer a .icon-bg {
 }
 footer a:hover .icon-bg {
     transform: scale(0.9);
+}
+#about-freelancer a {
+    color: var(--color-bg-section);
+}
+#about-freelancer a:hover {
+    color: white;
+}
+#footer-bottom {
+    font-size: 0.8em;
+}
+/* media query  */
+@media screen and (min-width:768px) {
+    main h2 {
+        font-size: 2.5em;
+    }
+    main h5 {
+        font-size: 1.5em;
+    }
+    footer h6 {
+        font-size: 1.2em;
+    }
+    body {
+        font-size: 1.1em;
+    }
+    #hero, #portfolio, #about, #contact-me {
+        padding: 1rem 0;
+    }
 }
