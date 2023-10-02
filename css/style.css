@@ -56,22 +56,25 @@ nav .my-nav-item a:hover {
     display: block;
     width: 8vw;
     height: 3px;
+    border-radius: 3px;
     background-color: var(--color-dark);
 }
 
 /* portfolio  */
+#portfolio figure img {
+    width: 100%;
+}
 #portfolio figure {
     border-radius: 10px;
+    margin: 0;
     overflow: hidden;
     position: relative;
     cursor: pointer;
 }
-
 #portfolio figure:hover::after{
     content: '+';
     color: white;
     font-size: 10em;
-    line-height: 10em;
     font-weight: bold;
     display: flex;
     align-items: center;
