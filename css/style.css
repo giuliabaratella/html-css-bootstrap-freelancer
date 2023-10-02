@@ -24,6 +24,21 @@ body {
     background-color: var(--color-dark);
 }
 
+/* navbar  */
+nav .my-navbar-brand:hover {
+    color: var(--color-bg-section) !important;
+}
+nav .my-nav-item {
+    text-align: end;
+}
+nav .my-nav-item a {
+    color: white !important;
+
+}
+nav .my-nav-item a:hover {
+    color: var(--color-bg-section) !important;
+}
+
 /* hero  */
 #hero figure {
     width: 250px;
