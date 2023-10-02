@@ -24,24 +24,60 @@ body {
     background-color: var(--color-dark);
 }
 
-
 /* hero  */
 #hero figure {
     width: 250px;
 }
-.row-star {
+
+.my-star-white:after, .my-star-white:before {
+    content: '';
+    display: block;
     width: 8vw;
     height: 3px;
+    background-color: white;
+}
+.my-star-dark:after, .my-star-dark:before {
+    content: '';
+    display: block;
+    width: 8vw;
+    height: 3px;
+    background-color: var(--color-dark);
 }
 
 /* portfolio  */
-#portfolio figure img{
-    transition: all 0.3s;
-}
-#portfolio figure:hover img{
-    filter: brightness(40%);
-    transform: scale(0.99);
+#portfolio figure {
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
     cursor: pointer;
+}
+
+#portfolio figure:hover::after{
+    content: '+';
+    color: white;
+    font-size: 10em;
+    line-height: 10em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #1abc9cad ;
+}
+
+/* about  */
+#about .btn {
+    border: 1px solid white;
+    color: white;
+}
+
+#about .btn:hover {
+    background-color: white;
+    color: var(--color-dark);
 }
 
 /* footer  */
